@@ -1,0 +1,183 @@
+/* font-family: 'PT Sans', sans-serif; */
+@font-face{
+	font-family: HelveticaNeueBold;
+	src: url('../font/HelveticaNeueBold.otf');
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+/* header start */
+header{
+	background-color: #fcdb00;
+	padding: 10px 0;
+}
+.menu ul li a{
+	font-family: HelveticaNeueBold;
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101;
+	padding: 0 30px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/* header end */
+/* slider start */
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 90px ;
+}
+/* carousel start */
+.cid {
+    bottom: -70px;
+}
+.cid li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.cid .active {
+    opacity: 1;
+    background-color: green;
+}
+
+/* carousel end */
+.inspire{
+	margin-top: 50px;
+
+}
+.inspire h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;  
+}
+.inspire h3{
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	margin-top: 15px;
+	word-spacing: 5px;
+}
+.inspire p{
+	color: #555555;	
+	margin: 20px 0;
+}
+.inspire ul li i{
+	font-size: 42px;
+	margin-right: 20px;
+}
+.tab{
+
+}
+.tab img{
+
+}
+/* slidder end */
+/* features start */
+.features{
+	padding: 80px 0 100px 0;
+}
+.features .icon:hover{
+	background-color: #898989;
+}
+.title h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+}
+.title p{
+	font-size: 20px;
+	color: #555555;	
+
+}
+.m_t_30{
+	margin-top: 15px;
+}
+.icon{
+	color: #010101;
+	font-size: 50px; 
+}
+.icon_content {
+    margin-top: 15px;
+}
+.icon_content h1{
+font-size: 22px;
+color:  #010101;
+}
+.icon_content p{
+	font-size: 20px;
+	color: #898989;	
+}
+.p_l_0{
+	padding-left: 0px;
+}
+/* features end */
+
+/* contact start */
+.contact{
+	background-color: #010101;
+	padding: 80px 0 100px 0;
+
+}
+.ye{
+	color: yellow !important;
+}
+.contact-form{
+
+}
+.custom_input{
+	border: none;
+	padding: 30px 20px;
+}
+.btn-custom{
+	border: none;
+	background-color: yellow;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-custom:hover{
+	background-color: #898989;
+	color: yellow;
+}
+.social_icon{
+	margin-top: 50px;
+}
+.social_icon i{
+	font-size: 50px;
+	margin: 15px 15px;
+	background-color: yellow;
+	color: #010101;
+	border-radius: 15%;
+	cursor: pointer;
+}
+.social_icon i:hover{
+	background-color: #898989;
+	color: yellow;
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+/* contact end */
+/* footer start */
+footer{
+	background-color: #010101;
+	padding: 80px 0 100px 0;
+}
+footer address{
+	color: #fff;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	
+}
+footer ul li a{
+color: white;
+text-decoration: none;
+}
+footer ul li a:hover{
+	color: yellow;
+}
+/* footer end */
