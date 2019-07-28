@@ -38,7 +38,7 @@ header{
 }
 .cid .active {
     opacity: 1;
-    background-color: green;
+    background-color: black;
 }
 
 /* carousel end */
@@ -77,16 +77,13 @@ header{
 .features{
 	padding: 80px 0 100px 0;
 }
-.features .icon:hover{
-	background-color: #898989;
-}
 .title h1{
 	font-weight: 700;
 	font-size: 32px;
 	color: #010101;
 }
 .title p{
-	font-size: 20px;
+	font-size: 21px;
 	color: #555555;	
 
 }
@@ -127,37 +124,50 @@ color:  #010101;
 }
 .custom_input{
 	border: none;
-	padding: 30px 20px;
+	padding: 25px 20px;
 }
 .btn-custom{
 	border: none;
 	background-color: yellow;
-    padding: 15px 40px;
+    padding: 12px 40px;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .btn-custom:hover{
-	background-color: #898989;
-	color: yellow;
+	background-color: #fff;
+	color: black;
 }
-.social_icon{
+.social-icon{
 	margin-top: 50px;
-}
-.social_icon i{
-	font-size: 50px;
-	margin: 15px 15px;
+	font-size: 30px;
+	width: 50px;
+	float: left;
+	color: #212121;
+	padding: 5px;
+	text-align: center;
 	background-color: yellow;
-	color: #010101;
-	border-radius: 15%;
-	cursor: pointer;
+	border-radius: 8px ;
+	margin: 50px 10px 0 10px;
+	transition: 0.5s;
+
 }
-.social_icon i:hover{
-	background-color: #898989;
-	color: yellow;
-	transform: rotateY(180deg);
-	cursor: pointer;
+.blue:hover{
+		background-color: blue;
+		color: white;
+
 }
+.sky:hover{
+		background-color: skyblue;
+		color: #fff;
+
+}
+.red:hover{
+		background-color: #E93030;
+		color: #fff;
+
+}
+
 /* contact end */
 /* footer start */
 footer{
